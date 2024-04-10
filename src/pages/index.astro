@@ -1,5 +1,5 @@
 ---
-
+import Navbar from "../components/Navbar"
 ---
 
 <html lang="en">
@@ -10,7 +10,10 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-red-300">
+		<div class="bg-slate-900">
+			<Navbar client:load/>
+		</div>
+		
 	</body>
 </html>
