@@ -1,19 +1,28 @@
 ---
 import Navbar from "../components/Navbar"
----
 
+import Hero from "../components/Hero"
+---
+<!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title></title>
+		
 	</head>
-	<body class="bg-red-300">
-		<div class="bg-slate-900">
-			<Navbar client:load/>
-		</div>
+	<body class=" bg-zinc-900 w-full ">
+		<Navbar client:load/>
+		<Hero/>
+		
+	
+		
+	
+		</>
 		
 	</body>
 </html>
+
